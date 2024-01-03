@@ -5,7 +5,7 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa, .centered-main-page-element {
+.aaa, .main {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -19,7 +19,7 @@ img {
     width: 100%;
 }
 
-.more_inf {
+.more {
     font-family: fantasy, cursive;
 }
 
@@ -145,18 +145,18 @@ label[for="new-task"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed label {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 
-.editMode input[type=text] {
+.edit input[type=text] {
     display: inline-block;
     width: 224px
 }
 
-.editMode label {
+.edit label {
     display: none;
 }
