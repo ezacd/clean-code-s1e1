@@ -28,7 +28,7 @@ const createNewTaskElement = function (taskString) {
     deleteButton.appendChild(deleteButtonImg);
 
     listItem.append(checkBox, label, editInput, editButton, deleteButton);
-    
+
     return listItem;
 }
 
@@ -89,7 +89,6 @@ addButton.addEventListener("click", addTask);
 
 
 const bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
-    console.log("bind list item events");
     const checkBox = taskListItem.querySelector("input[type=checkbox]");
     const editButton = taskListItem.querySelector("button.edit");
     const deleteButton = taskListItem.querySelector("button.delete");

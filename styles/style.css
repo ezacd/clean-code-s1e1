@@ -5,14 +5,14 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa,
+.header,
 .main {
     width: 500px;
     margin: 0 auto;
     display: block;
 }
 
-.aaa {
+.header {
     text-align: right;
 }
 
